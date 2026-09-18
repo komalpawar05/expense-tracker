@@ -1,80 +1,113 @@
-<<<<<<< HEAD
-# expense-tracker
-A responsive Expense Tracker built with React, TypeScript, and Tailwind CSS to manage, track, and analyze daily expenses.
-=======
-# React + TypeScript + Vite
+# 💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application for managing and tracking daily expenses.
 
-Currently, two official plugins are available:
+## 🚀 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Expense Tracker allows users to add, view, edit, delete, and organize their expenses by category.
 
-## React Compiler
+This project is being built to practice modern frontend development with React and TypeScript.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* ➕ Add new expenses
+* 👀 View all expenses
+* ✏️ Edit expenses
+* 🗑️ Delete expenses
+* 🔍 Search expenses
+* 🏷️ Filter expenses by category
+* 💰 Calculate total expenses
+* 💾 Store expenses using LocalStorage
+* 📱 Responsive design
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Technologies Used
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* ESLint
+* Git & GitHub
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+src/
+├── components/
+│   ├── ExpenseForm.tsx
+│   ├── ExpenseList.tsx
+│   └── ...
+│
+├── types/
+│   └── expense.ts
+│
+├── App.tsx
+├── main.tsx
+└── index.css
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Clone the repository:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+git clone https://github.com/komalpawar05/expense-tracker.git
 ```
->>>>>>> 3797af3 (Initial commit - Expense Tracker setup)
+
+Go to the project folder:
+
+```bash
+cd expense-tracker
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the application in your browser at the URL shown in the terminal.
+
+## 📸 Screenshots
+
+Screenshots will be added as the project UI is completed.
+
+## 🎯 Learning Goals
+
+This project focuses on practicing:
+
+* React components
+* TypeScript
+* React `useState`
+* Props
+* Event handling
+* Forms
+* Array methods such as `map()`, `filter()`, and `reduce()`
+* LocalStorage
+* Responsive UI
+* Git and GitHub workflow
+
+## 🔮 Future Improvements
+
+* Expense charts and analytics
+* Monthly expense reports
+* Dark mode
+* Export expenses to CSV
+* Improved accessibility
+* Deployment
+
+## 👩‍💻 Author
+
+**Komal Pawar**
+
+GitHub: [@komalpawar05](https://github.com/komalpawar05)
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
