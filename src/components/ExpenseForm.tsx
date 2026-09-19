@@ -1,5 +1,11 @@
 import { useState } from "react";
 
+interface Expense {
+  id: number;
+  title: string;
+  amount: number;
+  category: string;
+}
 
 interface ExpenseFormProps {
   onAddExpense: (expense: Expense) => void;
