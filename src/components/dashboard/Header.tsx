@@ -37,7 +37,7 @@ function Header({
           </button>
 
           <button className="hidden h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-sm font-bold text-white sm:flex">
-            A
+            KP
           </button>
         </div>
       </div>
