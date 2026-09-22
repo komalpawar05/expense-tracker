@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 * {
   box-sizing: border-box;
 }
@@ -13,7 +11,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-
+  background: #f8fafc;
   font-family:
     Inter,
     ui-sans-serif,
@@ -22,17 +20,10 @@ body {
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-
-  background: #f8fafc;
 }
 
 button,
 input,
-select,
-textarea {
+select {
   font: inherit;
-}
-
-button {
-  cursor: pointer;
 }
