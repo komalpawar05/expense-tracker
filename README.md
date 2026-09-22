@@ -31,20 +31,36 @@ This project is being built to practice modern frontend development with React a
 
 ## 📂 Project Structure
 
-```text
+
 src/
 ├── components/
-│   ├── ExpenseForm.tsx
-│   ├── ExpenseList.tsx
-│   └── ...
+│   ├── dashboard/
+│   │   ├── Header.tsx
+│   │   ├── StatCard.tsx
+│   │   ├── SpendingChart.tsx
+│   │   └── BudgetCard.tsx
+│   │
+│   ├── expenses/
+│   │   ├── ExpenseForm.tsx
+│   │   ├── ExpenseList.tsx
+│   │   ├── ExpenseItem.tsx
+│   │   └── ExpenseFilters.tsx
+│   │
+│   └── ui/
+│       └── EmptyState.tsx
+│
+├── data/
+│   └── categories.ts
 │
 ├── types/
 │   └── expense.ts
 │
+├── utils/
+│   └── storage.ts
+│
 ├── App.tsx
-├── main.tsx
-└── index.css
-```
+├── index.css
+└── main.tsx
 
 ## ⚙️ Installation
 
