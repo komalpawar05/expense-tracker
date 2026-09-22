@@ -91,6 +91,8 @@ npm run dev
 Open the application in your browser at the URL shown in the terminal.
 
 ## 📸 Screenshots
+<img width="1904" height="867" alt="image" src="https://github.com/user-attachments/assets/048cb219-19c7-4b27-9cf6-dce6a267c4f9" />
+
 
 Screenshots will be added as the project UI is completed.
 
